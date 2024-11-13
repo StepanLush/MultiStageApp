@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/docker-app/node_modules
+/frontend/docker-app/.pnp
+/frontend/docker-app .pnp.js
+
+# testing
+/frontend/docker-app/coverage
+
+# production
+/frontend/docker-app/build
+
+# misc
+/frontend/docker-app/.DS_Store
+/frontend/docker-app/.env.local
+/frontend/docker-app/.env.development.local
+/frontend/docker-app/.env.test.local
+/frontend/docker-app/.env.production.local
+
+/frontend/docker-app/npm-debug.log*
+/frontend/docker-app/yarn-debug.log*
+/frontend/docker-app/yarn-error.log*
+
+
+/backend/node_modules
